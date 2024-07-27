@@ -4,6 +4,9 @@
 
 This project implements a speaker recognition system utilizing Gaussian Mixture Models (GMMs) and Mel-Frequency Cepstral Coefficients (MFCC) features. The system is designed to identify speakers within a dataset, leveraging the unique vocal characteristics captured through MFCC to achieve high accuracy.
 
+## Dataset
+http://www.repository.voxforge1.org/downloads/SpeechCorpus/Trunk/Audio/Main/8kHz_16bit/
+
 ## Features
 
 - **MFCC Feature Extraction**: Converts audio signals into a form that's easier to analyze by extracting Mel-Frequency Cepstral Coefficients.
