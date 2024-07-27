@@ -25,27 +25,31 @@ The dataset is derived from the VoxForge speech dataset, organized specifically 
 
 ## Installation
 
-Ensure Python and the necessary libraries are installed:
+```bash
 pip install numpy librosa pydub scikit-learn
+```
 
 Usage
 Feature Extraction
 Run feature_extraction.py to extract MFCC features from audio files and save them for training and testing:
-
+```bash
 python src/feature_extraction.py
+```
 Model Training
 Execute train_models.py to train GMM models using the extracted MFCC features:
-
+```bash
 python src/train_models.py
+```
 Speaker Recognition
 Use recognize_speaker.py to identify speakers from audio samples in the test set:
-
+```bash
 python src/recognize_speaker.py
-
+```
 System Evaluation
 Evaluate the recognition accuracy of the system with evaluate_system.py, which tests the model across the entire test dataset and outputs the accuracy:
+```bash
 python src/evaluate_system.py
-
+```
 
 Results
 The system achieved a recognition accuracy of approximately 92.57% on the test dataset. This high accuracy demonstrates the effectiveness of GMMs in handling speaker variability and capturing distinct vocal features.
